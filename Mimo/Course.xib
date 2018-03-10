@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="courseCell" rowHeight="122" id="KAV-bt-utU" customClass="CourseCell" customModule="Mimo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="122"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KAV-bt-utU" id="6vU-TU-Xfd">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="121.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yvs-B7-fpD">
+                        <rect key="frame" x="16" y="20.5" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="P6y-lC-phk"/>
+                            <constraint firstAttribute="width" constant="80" id="xfN-vR-eoZ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcB-g1-64t">
+                        <rect key="frame" x="104" y="20" width="255" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="d0o-q0-xu9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Course Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1J-Ts-hiN">
+                        <rect key="frame" x="104" y="64" width="255" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="zqc-Kz-2up"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="pcB-g1-64t" secondAttribute="trailing" constant="16" id="5UA-fG-PgU"/>
+                    <constraint firstItem="pcB-g1-64t" firstAttribute="leading" secondItem="yvs-B7-fpD" secondAttribute="trailing" constant="8" id="JIl-M6-SM2"/>
+                    <constraint firstItem="yvs-B7-fpD" firstAttribute="leading" secondItem="6vU-TU-Xfd" secondAttribute="leading" constant="16" id="LOB-hm-A2J"/>
+                    <constraint firstItem="j1J-Ts-hiN" firstAttribute="bottom" secondItem="yvs-B7-fpD" secondAttribute="bottom" id="RZZ-ow-C5s"/>
+                    <constraint firstItem="yvs-B7-fpD" firstAttribute="centerY" secondItem="6vU-TU-Xfd" secondAttribute="centerY" id="YEg-MO-kEl"/>
+                    <constraint firstItem="j1J-Ts-hiN" firstAttribute="leading" secondItem="yvs-B7-fpD" secondAttribute="trailing" constant="8" id="aUl-X1-eJn"/>
+                    <constraint firstItem="pcB-g1-64t" firstAttribute="top" secondItem="yvs-B7-fpD" secondAttribute="top" id="hXo-DE-32b"/>
+                    <constraint firstAttribute="trailing" secondItem="j1J-Ts-hiN" secondAttribute="trailing" constant="16" id="pBQ-ud-4PW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageCourse" destination="yvs-B7-fpD" id="b9T-W2-zHJ"/>
+                <outlet property="lbl_courseName" destination="j1J-Ts-hiN" id="lfg-Kl-UGR"/>
+                <outlet property="lbl_title" destination="pcB-g1-64t" id="i6q-l9-4aX"/>
+            </connections>
+            <point key="canvasLocation" x="10.5" y="34"/>
+        </tableViewCell>
+    </objects>
+</document>

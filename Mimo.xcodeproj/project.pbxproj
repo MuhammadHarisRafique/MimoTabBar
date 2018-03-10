@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		4D1A771D2052C2DD00162459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A771C2052C2DD00162459 /* AppDelegate.swift */; };
-		4D1A771F2052C2DD00162459 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A771E2052C2DD00162459 /* FirstViewController.swift */; };
+		4D1A771F2052C2DD00162459 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A771E2052C2DD00162459 /* ExploreController.swift */; };
 		4D1A77212052C2DD00162459 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A77202052C2DD00162459 /* SecondViewController.swift */; };
 		4D1A77242052C2DD00162459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A77222052C2DD00162459 /* Main.storyboard */; };
 		4D1A77262052C2DD00162459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A77252052C2DD00162459 /* Assets.xcassets */; };
 		4D1A77292052C2DD00162459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A77272052C2DD00162459 /* LaunchScreen.storyboard */; };
+		4DAE990A205431C4004EC74B /* Course.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE9909205431C4004EC74B /* Course.xib */; };
+		4DAE990C205434B6004EC74B /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE990B205434B6004EC74B /* CourseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D1A77192052C2DD00162459 /* Mimo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mimo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1A771C2052C2DD00162459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D1A771E2052C2DD00162459 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4D1A771E2052C2DD00162459 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
 		4D1A77202052C2DD00162459 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		4D1A77232052C2DD00162459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D1A77252052C2DD00162459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1A77282052C2DD00162459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1A772A2052C2DD00162459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAE9909205431C4004EC74B /* Course.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Course.xib; sourceTree = "<group>"; };
+		4DAE990B205434B6004EC74B /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				4D1A771C2052C2DD00162459 /* AppDelegate.swift */,
-				4D1A771E2052C2DD00162459 /* FirstViewController.swift */,
+				4D1A771E2052C2DD00162459 /* ExploreController.swift */,
 				4D1A77202052C2DD00162459 /* SecondViewController.swift */,
 				4D1A77222052C2DD00162459 /* Main.storyboard */,
 				4D1A77252052C2DD00162459 /* Assets.xcassets */,
 				4D1A77272052C2DD00162459 /* LaunchScreen.storyboard */,
 				4D1A772A2052C2DD00162459 /* Info.plist */,
+				4DAE9909205431C4004EC74B /* Course.xib */,
+				4DAE990B205434B6004EC74B /* CourseCell.swift */,
 			);
 			path = Mimo;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAE990A205431C4004EC74B /* Course.xib in Resources */,
 				4D1A77292052C2DD00162459 /* LaunchScreen.storyboard in Resources */,
 				4D1A77262052C2DD00162459 /* Assets.xcassets in Resources */,
 				4D1A77242052C2DD00162459 /* Main.storyboard in Resources */,
@@ -139,9 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAE990C205434B6004EC74B /* CourseCell.swift in Sources */,
 				4D1A77212052C2DD00162459 /* SecondViewController.swift in Sources */,
 				4D1A771D2052C2DD00162459 /* AppDelegate.swift in Sources */,
-				4D1A771F2052C2DD00162459 /* FirstViewController.swift in Sources */,
+				4D1A771F2052C2DD00162459 /* ExploreController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
