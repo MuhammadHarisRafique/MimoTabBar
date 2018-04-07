@@ -13,6 +13,12 @@
 		4D1A77242052C2DD00162459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A77222052C2DD00162459 /* Main.storyboard */; };
 		4D1A77262052C2DD00162459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A77252052C2DD00162459 /* Assets.xcassets */; };
 		4D1A77292052C2DD00162459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A77272052C2DD00162459 /* LaunchScreen.storyboard */; };
+		4DA8CD25207901D700F949ED /* csharp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8CD24207901D700F949ED /* csharp.png */; };
+		4DA8CD272079023C00F949ED /* ruby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8CD262079023C00F949ED /* ruby.jpg */; };
+		4DA8CD292079061400F949ED /* ScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8CD282079061400F949ED /* ScrollViewCell.swift */; };
+		4DA8CD2B207906B200F949ED /* ContentOfScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8CD2A207906B200F949ED /* ContentOfScrollView.swift */; };
+		4DA8CD2D207906D700F949ED /* ContentofScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8CD2C207906D700F949ED /* ContentofScrollView.xib */; };
+		4DA8CD2F2079081600F949ED /* ScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8CD2E2079081600F949ED /* ScrollView.xib */; };
 		4DAE990A205431C4004EC74B /* Course.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DAE9909205431C4004EC74B /* Course.xib */; };
 		4DAE990C205434B6004EC74B /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE990B205434B6004EC74B /* CourseCell.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +32,12 @@
 		4D1A77252052C2DD00162459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1A77282052C2DD00162459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1A772A2052C2DD00162459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA8CD24207901D700F949ED /* csharp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = csharp.png; sourceTree = "<group>"; };
+		4DA8CD262079023C00F949ED /* ruby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ruby.jpg; sourceTree = "<group>"; };
+		4DA8CD282079061400F949ED /* ScrollViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewCell.swift; sourceTree = "<group>"; };
+		4DA8CD2A207906B200F949ED /* ContentOfScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentOfScrollView.swift; sourceTree = "<group>"; };
+		4DA8CD2C207906D700F949ED /* ContentofScrollView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentofScrollView.xib; sourceTree = "<group>"; };
+		4DA8CD2E2079081600F949ED /* ScrollView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollView.xib; sourceTree = "<group>"; };
 		4DAE9909205431C4004EC74B /* Course.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Course.xib; sourceTree = "<group>"; };
 		4DAE990B205434B6004EC74B /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,11 +76,17 @@
 				4D1A771E2052C2DD00162459 /* ExploreController.swift */,
 				4D1A77202052C2DD00162459 /* SecondViewController.swift */,
 				4D1A77222052C2DD00162459 /* Main.storyboard */,
+				4DA8CD262079023C00F949ED /* ruby.jpg */,
 				4D1A77252052C2DD00162459 /* Assets.xcassets */,
+				4DA8CD24207901D700F949ED /* csharp.png */,
 				4D1A77272052C2DD00162459 /* LaunchScreen.storyboard */,
 				4D1A772A2052C2DD00162459 /* Info.plist */,
 				4DAE9909205431C4004EC74B /* Course.xib */,
+				4DA8CD2E2079081600F949ED /* ScrollView.xib */,
 				4DAE990B205434B6004EC74B /* CourseCell.swift */,
+				4DA8CD282079061400F949ED /* ScrollViewCell.swift */,
+				4DA8CD2A207906B200F949ED /* ContentOfScrollView.swift */,
+				4DA8CD2C207906D700F949ED /* ContentofScrollView.xib */,
 			);
 			path = Mimo;
 			sourceTree = "<group>";
@@ -100,7 +118,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Higher Visibility";
 				TargetAttributes = {
 					4D1A77182052C2DD00162459 = {
@@ -133,9 +151,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DAE990A205431C4004EC74B /* Course.xib in Resources */,
+				4DA8CD2F2079081600F949ED /* ScrollView.xib in Resources */,
+				4DA8CD272079023C00F949ED /* ruby.jpg in Resources */,
 				4D1A77292052C2DD00162459 /* LaunchScreen.storyboard in Resources */,
+				4DA8CD2D207906D700F949ED /* ContentofScrollView.xib in Resources */,
 				4D1A77262052C2DD00162459 /* Assets.xcassets in Resources */,
 				4D1A77242052C2DD00162459 /* Main.storyboard in Resources */,
+				4DA8CD25207901D700F949ED /* csharp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DAE990C205434B6004EC74B /* CourseCell.swift in Sources */,
+				4DA8CD292079061400F949ED /* ScrollViewCell.swift in Sources */,
 				4D1A77212052C2DD00162459 /* SecondViewController.swift in Sources */,
 				4D1A771D2052C2DD00162459 /* AppDelegate.swift in Sources */,
+				4DA8CD2B207906B200F949ED /* ContentOfScrollView.swift in Sources */,
 				4D1A771F2052C2DD00162459 /* ExploreController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +213,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -196,6 +221,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -246,6 +272,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -253,6 +280,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
